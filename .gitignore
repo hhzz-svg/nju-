@@ -1,0 +1,33 @@
+# Build outputs
+build/
+build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+*.o
+*.obj
+*.exe
+
+# Keep the submitted executable if intentionally included.
+!bin/
+!bin/Synera_Starter.exe
+
+# Local IDE and tool state
+.vscode/
+.qtcreator/
+.claude/
+.deep-copilot/
+.tmp.driveupload/
+
+# Runtime/local data
+savegame/
+*.log
+
+# Local packaging and process records
+*.zip
+progress.md
+PA说明文档.pdf
+中期PA演示提示.md
+自走棋PA五周开发指南及教程.md
